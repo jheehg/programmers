@@ -22,5 +22,6 @@ function solution(answers) {
     result.forEach((v, i) => {
         if(v === max) answer.push(i+1);
     })
+    
     return answer;
 }
